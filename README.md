@@ -1,5 +1,7 @@
 # Data Structures Algorithms
 
+![connect-any-structure](https://user-images.githubusercontent.com/86193685/205382575-03594fa1-0481-4d27-a768-3e9c9e565958.gif)
+
 ## Overview
 This repository is a collection of data structures algorithms implemented in Python include stack, queue, linked list, binary tree, sorting, searching and other. These algorithms use for computer engineering, computer science, data science, etc.. The implementations and the associated documentation are meant to provide a learning resource for educators and students.
 
