@@ -25,4 +25,5 @@ This repository is a collection of data structures algorithms implemented in Pyt
 + Search
 
 ## Learning Resources
-- ### boss
+- <b><a href="https://www.geeksforgeeks.org/">GeeksforGeeks</a></b>
+-  <b><a href="https://www.programiz.com/">Programiz</a></b>
