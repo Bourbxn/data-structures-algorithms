@@ -6,6 +6,19 @@ This repository is a collection of data structures algorithms implemented in Pyt
 + <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/stack">Stack</a></b>
 + <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/queue">Queue</a></b>
 + <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list">Linked List</a></b>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list/singly_linked_list">Singly Linked List</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list/doubly_linked_list">Doubly Linked List</a>
 + <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/binary-tree">Binary Tree</a></b>
-+ <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/sort">Sorting</a></b>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/binary-tree/binary_search_tree">Binary Search Tree</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/binary-tree/avl_tree">AVL Tree</a>
++ <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/sorting">Sorting</a></b>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/quick_sort.py">Quick Sort</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/merge_sort.py">Merge Sort</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/tim_sort.py">Tim Sort</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/heap_sort.py">Heap Sort</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/bubble_sort.py">Bubble Sort</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/insertion_sort.py">Insertion Sort</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/selection_sort.py">Selection Sort</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/shell_sort.py">Shell Sort</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/counting_sort.py">Counting Sort</a>
 + Search
