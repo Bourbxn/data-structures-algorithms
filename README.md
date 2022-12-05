@@ -25,7 +25,9 @@ This repository is a collection of data structures algorithms implemented in Pyt
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/shell_sort.py">Shell Sort</a>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/bucket_sort.py">Bucket Sort</a>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/counting_sort.py">Counting Sort</a>
-+ Search
++ <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/searching">Searching</a></b>
+  - ><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/searching/linear_search.py">Linear Search</a>
+  - ><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/searching/binary_search.py">Binary Search</a>
 
 ## Learning Resources
 - <b><a href="https://www.geeksforgeeks.org/">GeeksforGeeks</a></b>
