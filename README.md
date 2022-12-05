@@ -23,6 +23,7 @@ This repository is a collection of data structures algorithms implemented in Pyt
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/insertion_sort.py">Insertion Sort</a>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/selection_sort.py">Selection Sort</a>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/shell_sort.py">Shell Sort</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/bucket_sort.py">Bucket Sort</a>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/counting_sort.py">Counting Sort</a>
 + Search
 
