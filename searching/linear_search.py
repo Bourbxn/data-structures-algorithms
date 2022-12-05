@@ -6,8 +6,8 @@ def linear_search(arr: list, val: int) -> int:
 
 def main():
     pass
-    #arr = [1,2,3,4,5,6,7]
-    #print(linear_search(arr,4))
+    # arr = [1,2,3,4,5,6,7]
+    # print(linear_search(arr,4))
 
 if __name__ == '__main__':
     main()
