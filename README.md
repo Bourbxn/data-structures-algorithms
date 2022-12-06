@@ -7,11 +7,11 @@ This repository is a collection of data structures algorithms implemented in Pyt
 
 ## List for All Algorithms
 + <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/stack">Stack</a></b>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/stack/stack_list.py">Stack using List</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/stack/stack_linked_list.py">Stack using Linked List</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/stack/stack_list.py">Stack (List)</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/stack/stack_linked_list.py">Stack (Linked List)</a>
 + <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/queue">Queue</a></b>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/queue/queue_list.py">Queue using List</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/queue/queue_linked_list.py">Queue using Linked List</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/queue/queue_list.py">Queue (List)</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/queue/queue_linked_list.py">Queue (Linked List)</a>
 + <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list">Linked List</a></b>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list/singly_linked_list_1.py">Singly Linked List (Basic)</a>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list/singly_linked_list_2.py">Singly Linked List (Advanced)</a>
