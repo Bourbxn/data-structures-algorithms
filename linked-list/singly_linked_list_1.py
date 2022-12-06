@@ -11,9 +11,18 @@ class SinglyLinkedList:
         self.head = None
         self.tail = None
     
+    def __str__(self) -> str:
+        if self.is_empty():
+            return "List is Empty"
+        else:
+            ret = str(self.head.data)
+            run = self.head.next 
+            while run:
+                ret += f"->{run.data}"
+                run = run.next
+            return ret
+    
     def size(self) -> int:
-        if not self.head:  
-            return 0
         size = 0
         run = self.head
         while run:
@@ -22,25 +31,25 @@ class SinglyLinkedList:
         return size
 
     def is_empty(self) -> bool:
-        return False if self.head else True
+        return not bool(self.head)
 
     def append(self, data: any) -> None:
         node = Node(data)
-        if self.head:
+        if self.is_empty():
+            self.head = node
+            self.tail = node
+        else:
             self.tail.next = node
             self.tail = node
-        else:
-            self.head = node
-            self.tail = node
-    
+
     def add_head(self, data: any) -> None:
         node = Node(data)
-        if self.head:
-            node.next = self.head
-            self.head = node
-        else:
+        if self.is_empty():
             self.head = node
             self.tail = node
+        else:
+            node.next = self.head
+            self.head = node
     
     def insert(self, index: int, data: any) -> None:
         node = Node(data)
@@ -54,12 +63,12 @@ class SinglyLinkedList:
             run = self.head
             for _ in range(index-1):
                 run = run.next
-            node.next = run.next.next
+            node.next = run.next
             run.next = node
     
     def remove_index(self, index: int) -> None:
         size = self.size()
-        if not self.head:
+        if self.is_empty():
             return
         if index == 0:
             self.head = self.head.next
@@ -89,17 +98,6 @@ class SinglyLinkedList:
         if self.tail.data == run.data:
             self.tail = prev
 
-    def __str__(self) -> str:
-        if self.head:
-            ret = str(self.head.data)
-            run = self.head.next 
-            while run:
-                ret += f"->{run.data}"
-                run = run.next
-            return ret
-        else:
-            return "List is Empty"
-
 def main():
     pass
     # sll = SinglyLinkedList()
@@ -110,10 +108,9 @@ def main():
     # sll.insert(1,5)
     # sll.remove_index(0)
     # sll.remove_data(5)
-    # print(ll)
-    # print(ll.size())
-    # print(ll.is_empty())
+    # print(sll)
+    # print(sll.size())
+    # print(sll.is_empty())
 
 if __name__ == '__main__':
     main()
-

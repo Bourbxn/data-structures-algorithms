@@ -13,38 +13,35 @@ class DoublyLinkedList:
         self.tail = None
     
     def size(self) -> int:
-        if self.head:
-            size = 0
-            run = self.head
-            while run:
-                size += 1
-                run = run.next
-            return size
-        else:
-            return 0
+        size = 0
+        run = self.head
+        while run:
+            size += 1
+            run = run.next
+        return size
     
     def is_empty(self) -> bool:
-        return False if self.head else True
+        return not bool(self.head)
     
     def append(self, data: any) -> None:
         node = Node(data)
-        if self.head:
-            node.prev = self.tail
-            self.tail.next = node
+        if self.is_empty():
+            self.head = node
             self.tail = node
         else:
-            self.head = node
+            node.prev = self.tail
+            self.tail.next = node
             self.tail = node
     
     def add_head(self, data: any) -> None:
         node = Node(data)
-        if self.head:
+        if self.is_empty():
+            self.head = node
+            self.tail = node
+        else:
             node.next = self.head
             self.head.prev = node
             self.head = node
-        else:
-            self.head = node
-            self.tail = node
     
     def insert(self, index: int, data: any) -> None:
         node = Node(data)
@@ -63,14 +60,14 @@ class DoublyLinkedList:
             run = self.head
             for _ in range(index-1):
                 run = run.next
-            node.next = run.next.next
+            node.next = run.next
             node.prev = run
-            run.next.next.prev = node
+            run.next.prev = node
             run.next = node
     
     def remove_index(self, index: int) -> None:
         size = self.size()
-        if not self.head:
+        if self.is_empty():
             return
         if index == 0:
             self.head = self.head.next
@@ -108,26 +105,26 @@ class DoublyLinkedList:
             self.tail = prev
     
     def str_rev(self) -> str:
-        if self.head:
+        if self.is_empty():
+            return "List is Empty"
+        else:
             ret = str(self.tail.data)
             run = self.tail.prev
             while run:
                 ret += f"<-{run.data}"
                 run = run.prev
             return ret
-        else:
-            return "List is Empty"
     
     def __str__(self) -> str:
-        if self.head:
+        if self.is_empty():
+            return "List is Empty"
+        else:
             ret = str(self.head.data)
             run = self.head.next
             while run:
                 ret += f"->{run.data}"
                 run = run.next
             return ret
-        else:
-            return "List is Empty"
 
 def main():
     pass
@@ -139,10 +136,10 @@ def main():
     # dll.insert(1,5)
     # dll.remove_index(0)
     # dll.remove_data(5)
-    # print(ll)
-    # print(ll.str_rev())
-    # print(ll.size())
-    # print(ll.is_empty())
+    # print(dll)
+    # print(dll.str_rev())
+    # print(dll.size())
+    # print(dll.is_empty())
 
 if __name__ == '__main__':
     main()
