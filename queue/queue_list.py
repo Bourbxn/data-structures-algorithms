@@ -11,7 +11,7 @@ class Queue:
     def enqueue(self, data: any) -> None:
         self.queue.append(data)
     
-    def dequeue(self) -> None:
+    def dequeue(self) -> any:
         if not self.is_empty():
             return self.queue.pop(0)
     

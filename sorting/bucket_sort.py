@@ -1,4 +1,4 @@
-def bucket_sort(arr):
+def bucket_sort(arr: list) -> list:
     bucket = []
     for i in range(len(arr)):
         bucket.append([])
