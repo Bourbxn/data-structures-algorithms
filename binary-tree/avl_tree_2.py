@@ -145,17 +145,17 @@ class AVLTree:
 
 def main():
     pass
-    tree = AVLTree()
-    tree.insert(10)
-    tree.insert(20)
-    tree.insert(30)
-    tree.print_tree()
-    tree.print_inorder()
-    tree.print_preorder()
-    tree.print_postorder()
-    tree.print_breadth()
-    print(tree.min_data())
-    print(tree.max_data())
+    # tree = AVLTree()
+    # tree.insert(10)
+    # tree.insert(20)
+    # tree.insert(30)
+    # tree.print_tree()
+    # tree.print_inorder()
+    # tree.print_preorder()
+    # tree.print_postorder()
+    # tree.print_breadth()
+    # print(tree.min_data())
+    # print(tree.max_data())
 
 if __name__ == '__main__':
     main()
