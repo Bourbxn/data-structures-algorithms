@@ -12,6 +12,17 @@ class DoublyLinkedList:
         self.head = None
         self.tail = None
     
+    def __str__(self) -> str:
+        if self.is_empty():
+            return "List is Empty"
+        else:
+            ret = str(self.head.data)
+            run = self.head.next
+            while run:
+                ret += f"->{run.data}"
+                run = run.next
+            return ret
+    
     def size(self) -> int:
         size = 0
         run = self.head
@@ -49,13 +60,14 @@ class DoublyLinkedList:
         if (self.is_empty() and index == 0) or index == size:
             self.append(data)
         elif index == 0:
-            node.next = self.head.next
-            self.head.next.prev = node
+            node.next = self.head
+            self.head.prev = node
             self.head = node
         elif index == size - 1:
+            node.next = self.tail
             node.prev = self.tail.prev
             self.tail.prev.next = node
-            self.tail = node
+            self.tail.prev = node
         elif index > 0 and index < size-1:
             run = self.head
             for _ in range(index-1):
@@ -113,17 +125,6 @@ class DoublyLinkedList:
             while run:
                 ret += f"<-{run.data}"
                 run = run.prev
-            return ret
-    
-    def __str__(self) -> str:
-        if self.is_empty():
-            return "List is Empty"
-        else:
-            ret = str(self.head.data)
-            run = self.head.next
-            while run:
-                ret += f"->{run.data}"
-                run = run.next
             return ret
 
 def main():
