@@ -15,7 +15,8 @@ This repository is a collection of data structures algorithms implemented in Pyt
 + <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list">Linked List</a></b>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list/singly_linked_list_1.py">Singly Linked List (Basic)</a>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list/singly_linked_list_2.py">Singly Linked List (Advanced)</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list/doubly_linked_list.py">Doubly Linked List (Basic)</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list/doubly_linked_list_1.py">Doubly Linked List (Basic)</a>
+  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list/doubly_linked_list_2.py">Doubly Linked List (Advancded)</a>
 + <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/binary-tree">Binary Tree</a></b>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/binary-tree/binary_search_tree.py">Binary Search Tree</a>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/binary-tree/avl_tree.py">AVL Tree</a>
