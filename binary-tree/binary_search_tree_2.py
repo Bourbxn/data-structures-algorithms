@@ -103,8 +103,8 @@ class BinarySearchTree:
 def main():
     pass
     # tree = BinarySearchTree()
-    # tree.insert(10)
     # tree.insert(20)
+    # tree.insert(10)
     # tree.insert(30)
     # tree.print_tree()
     # tree.print_inorder()

@@ -36,7 +36,7 @@ class AVLTree:
             root.right = self.right_rotate(root.right)
             return self.left_rotate(root)
         return root
- 
+
     def left_rotate(self, z: Node) -> Node:
         y = z.right
         T2 = y.left
@@ -58,7 +58,7 @@ class AVLTree:
         y.height = 1 + max(self.get_height(y.left),
                         self.get_height(y.right))
         return y
- 
+
     def get_height(self, root: Node) -> int:
         if not root:
             return 0
@@ -145,17 +145,17 @@ class AVLTree:
 
 def main():
     pass
-    # tree = AVLTree()
-    # tree.insert(10)
-    # tree.insert(20)
-    # tree.insert(30)
-    # tree.print_tree()
-    # tree.print_inorder()
-    # tree.print_preorder()
-    # tree.print_postorder()
-    # tree.print_breadth()
-    # print(tree.min_data())
-    # print(tree.max_data())
+    tree = AVLTree()
+    tree.insert(10)
+    tree.insert(20)
+    tree.insert(30)
+    tree.print_tree()
+    tree.print_inorder()
+    tree.print_preorder()
+    tree.print_postorder()
+    tree.print_breadth()
+    print(tree.min_data())
+    print(tree.max_data())
 
 if __name__ == '__main__':
     main()
