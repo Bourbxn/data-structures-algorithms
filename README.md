@@ -40,20 +40,9 @@ This repository is a collection of data structures algorithms implemented in Pyt
 - [Counting Sort](sorting/counting_sort.py)
 
 ### Searching
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/quick_sort.py">Quick Sort</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/merge_sort.py">Merge Sort</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/tim_sort.py">Tim Sort</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/heap_sort.py">Heap Sort</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/bubble_sort.py">Bubble Sort</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/insertion_sort.py">Insertion Sort</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/selection_sort.py">Selection Sort</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/shell_sort.py">Shell Sort</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/bucket_sort.py">Bucket Sort</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/counting_sort.py">Counting Sort</a>
-+ <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/searching">Searching</a></b>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/searching/linear_search.py">Linear Search</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/searching/binary_search.py">Binary Search</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/searching/jump_search.py">Jump Search</a>
+- [Linear Search](searching/linear_search.py)
+- [Binary Seach](searching/binary_search.py)
+- [Jump_Search](searching/jump_search.py)
 
 ## Learning Resources
 - <b><a href="https://www.geeksforgeeks.org/">GeeksforGeeks</a></b>
