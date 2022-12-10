@@ -9,6 +9,10 @@ This repository is a collection of data structures algorithms implemented in Pyt
 
 ### Stack
 - [Stack (List)](stack/stack_list.py)
+- [Stack (Linked List)](stack/stack_linked_list.py)
+
+### Queue
+
 + <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/stack">Stack</a></b>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/stack/stack_list.py">Stack (List)</a>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/stack/stack_linked_list.py">Stack (Linked List)</a>
