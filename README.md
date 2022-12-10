@@ -6,6 +6,9 @@
 This repository is a collection of data structures algorithms implemented in Python include stack, queue, linked list, binary tree, sorting, searching and other. These algorithms use for computer engineering, computer science, data science, etc.. The implementations and the associated documentation are meant to provide a learning resource for educators and students.
 
 ## List for All Algorithms
+
+### Stack
+- [Stack (List)](stack/stack_list.py)
 + <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/stack">Stack</a></b>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/stack/stack_list.py">Stack (List)</a>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/stack/stack_linked_list.py">Stack (Linked List)</a>
