@@ -42,7 +42,7 @@ This repository is a collection of data structures algorithms implemented in Pyt
 ### Searching
 - [Linear Search](searching/linear_search.py)
 - [Binary Seach](searching/binary_search.py)
-- [Jump_Search](searching/jump_search.py)
+- [Jump Search](searching/jump_search.py)
 
 ## Learning Resources
 - <b><a href="https://www.geeksforgeeks.org/">GeeksforGeeks</a></b>
