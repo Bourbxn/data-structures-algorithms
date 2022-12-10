@@ -28,10 +28,18 @@ This repository is a collection of data structures algorithms implemented in Pyt
 - [AVL Tree (Helper Functions)](binary-tree/avl_tree_2.py)
 
 ### Sorting
+- [Quick Sort](sorting/quick_sort.py)
+- [Merge Sort](sorting/merge.py)
+- [Tim Sort](sorting/tim_sort.py)
+- [Heap Sort](sorting/heap_sort.py)
+- [Bubble Sort](sorting/bubble_sort.py)
+- [Insertion Sort](sorting/insertion_sort.py)
+- [Selection Sort](sorting/selection_sort.py)
+- [Shell Sort](sorting/shell_sort.py)
+- [Bucket Sort](sorting/bucket_sort.py)
+- [Counting Sort](sorting/counting_sort.py)
 
 ### Searching
-
-+ <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/sorting">Sorting</a></b>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/quick_sort.py">Quick Sort</a>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/merge_sort.py">Merge Sort</a>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/tim_sort.py">Tim Sort</a>
