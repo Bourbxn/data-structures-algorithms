@@ -15,19 +15,22 @@ This repository is a collection of data structures algorithms implemented in Pyt
 - [Queue (List)](queue/queue_list.py)
 - [Queue (Linked List)](queue/queue_linked_list.py)
 
-+ <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/queue">Queue</a></b>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/queue/queue_list.py">Queue (List)</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/queue/queue_linked_list.py">Queue (Linked List)</a>
-+ <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list">Linked List</a></b>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list/singly_linked_list_1.py">Singly Linked List (Basic)</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list/singly_linked_list_2.py">Singly Linked List (Advanced)</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list/doubly_linked_list_1.py">Doubly Linked List (Basic)</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/linked-list/doubly_linked_list_2.py">Doubly Linked List (Advancded)</a>
-+ <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/binary-tree">Binary Tree</a></b>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/binary-tree/binary_search_tree_1.py">Binary Search Tree</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/binary-tree/binary_search_tree_2.py">Binary Search Tree (Helper Functions)</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/binary-tree/avl_tree_1.py">AVL Tree</a>
-  - <a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/binary-tree/avl_tree_2.py">AVL Tree (Helper Functions)</a>
+### Linked List
+- [Singly Linked List (Basic)](linked-list/singly_linked_list_1.py)
+- [Singly Linked List (Advanced)](linked-list/singly_linked_list_2.py)
+- [Doubly Linked List (Basic)](linked-list/doubly_linked_list_1.py)
+- [Doubly Linked List (Advanced)](linked-list/doubly_linked_list_2.py)
+
+### Binary Tree
+- [Binary Search Tree](binary-tree/binary_search_tree_1.py)
+- [Binary Search Tree (Helper Functions)](binary-tree/binary_search_tree_2.py)
+- [AVL Tree](binary-tree/avl_tree_1.py)
+- [AVL Tree (Helper Functions)](binary-tree/avl_tree_2.py)
+
+### Sorting
+
+### Searching
+
 + <b><a href="https://github.com/Bourbxn/data-structures-algorithms/tree/main/sorting">Sorting</a></b>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/quick_sort.py">Quick Sort</a>
   - <a href="https://github.com/Bourbxn/data-structures-algorithms/blob/main/sorting/merge_sort.py">Merge Sort</a>
