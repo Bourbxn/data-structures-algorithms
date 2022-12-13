@@ -17,15 +17,15 @@ This repository is a collection of data structures algorithms implemented in Pyt
 
 ### Linked List
 - [Singly Linked List (Basic)](linked-list/singly_linked_list_1.py). A specialized case of a generic linked list.
-- [Singly Linked List (Advanced)](linked-list/singly_linked_list_2.py). A singly linked list implemented with iteration magic method
+- [Singly Linked List (Advanced)](linked-list/singly_linked_list_2.py). A singly linked list implemented with iteration magic method.
 - [Doubly Linked List (Basic)](linked-list/doubly_linked_list_1.py) A complex type of linked list in which a node contains a pointer to the previous as well as the next node in the sequence.
-- [Doubly Linked List (Advanced)](linked-list/doubly_linked_list_2.py)
+- [Doubly Linked List (Advanced)](linked-list/doubly_linked_list_2.py). A doubly linked list implemented with iteration magic method.
 
 ### Binary Tree
-- [Binary Search Tree](binary-tree/binary_search_tree_1.py)
-- [Binary Search Tree (Helper Functions)](binary-tree/binary_search_tree_2.py)
-- [AVL Tree](binary-tree/avl_tree_1.py)
-- [AVL Tree (Helper Functions)](binary-tree/avl_tree_2.py)
+- [Binary Search Tree](binary-tree/binary_search_tree_1.py) A tree where each node has at most two children.
+- [Binary Search Tree (Helper Functions)](binary-tree/binary_search_tree_2.py) A binary tree implemented with helper functions.
+- [AVL Tree](binary-tree/avl_tree_1.py) A self balancing binary search tree when insert a data.
+- [AVL Tree (Helper Functions)](binary-tree/avl_tree_2.py) A avl tree implemented with helper functions.
 
 ### Sorting
 - [Quick Sort](sorting/quick_sort.py)
