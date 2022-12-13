@@ -8,16 +8,16 @@ This repository is a collection of data structures algorithms implemented in Pyt
 ## List for All Algorithms
 
 ### Stack
-- [Stack (List)](stack/stack_list.py). Last-in, First-out! and using built in list in python.
-- [Stack (Linked List)](stack/stack_linked_list.py). Last-in, First-out! and using linked list class.
+- [Stack (List)](stack/stack_list.py). Last-in, First-out! and implemented with built in list in python.
+- [Stack (Linked List)](stack/stack_linked_list.py). A stack implemented with linked list class.
 
 ### Queue
-- [Queue (List)](queue/queue_list.py). First-in, First-out! and using built in list in python.
-- [Queue (Linked List)](queue/queue_linked_list.py). First-in, First-out! and using linked list class.
+- [Queue (List)](queue/queue_list.py). First-in, First-out! and implemented with built in list in python.
+- [Queue (Linked List)](queue/queue_linked_list.py). A queue using linked list class.
 
 ### Linked List
-- [Singly Linked List (Basic)](linked-list/singly_linked_list_1.py)
-- [Singly Linked List (Advanced)](linked-list/singly_linked_list_2.py)
+- [Singly Linked List (Basic)](linked-list/singly_linked_list_1.py). A specialized case of a generic linked list.
+- [Singly Linked List (Advanced)](linked-list/singly_linked_list_2.py). A singly linked list implemented in iteration magic method
 - [Doubly Linked List (Basic)](linked-list/doubly_linked_list_1.py)
 - [Doubly Linked List (Advanced)](linked-list/doubly_linked_list_2.py)
 
