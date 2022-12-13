@@ -38,6 +38,7 @@ This repository is a collection of data structures algorithms implemented in Pyt
 - [Shell Sort](sorting/shell_sort.py)
 - [Bucket Sort](sorting/bucket_sort.py)
 - [Counting Sort](sorting/counting_sort.py)
+- [Slow Sort](sorting/slow_sort.py)
 
 ### Searching
 - [Linear Search](searching/linear_search.py)
