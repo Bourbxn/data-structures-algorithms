@@ -8,29 +8,29 @@ This repository is a collection of data structures algorithms implemented in Pyt
 ## List for All Algorithms
 
 ### Stack
-- [Stack (List)](stack/stack_list.py). Last-in, First-out! and implemented with built in list in python.
-- [Stack (Linked List)](stack/stack_linked_list.py). A stack implemented with linked list class.
+- [Stack (List)](stack/stack_list.py)
+- [Stack (Linked List)](stack/stack_linked_list.py)
 
 ### Queue
-- [Queue (List)](queue/queue_list.py). First-in, First-out! and implemented with built in list in python.
-- [Queue (Linked List)](queue/queue_linked_list.py). A queue using linked list class.
+- [Queue (List)](queue/queue_list.py)
+- [Queue (Linked List)](queue/queue_linked_list.py)
 
 ### Linked List
-- [Singly Linked List (Basic)](linked-list/singly_linked_list_1.py). A specialized case of a generic linked list.
-- [Singly Linked List (Advanced)](linked-list/singly_linked_list_2.py). A singly linked list implemented with iteration magic method.
-- [Doubly Linked List (Basic)](linked-list/doubly_linked_list_1.py) A complex type of linked list in which a node contains a pointer to the previous as well as the next node in the sequence.
-- [Doubly Linked List (Advanced)](linked-list/doubly_linked_list_2.py). A doubly linked list implemented with iteration magic method.
+- [Singly Linked List (Basic)](linked-list/singly_linked_list_1.py)
+- [Singly Linked List (Advanced)](linked-list/singly_linked_list_2.py)
+- [Doubly Linked List (Basic)](linked-list/doubly_linked_list_1.py)
+- [Doubly Linked List (Advanced)](linked-list/doubly_linked_list_2.py)
 
 ### Binary Tree
-- [Binary Search Tree](binary-tree/binary_search_tree_1.py) A tree where each node has at most two children.
-- [Binary Search Tree (Helper Functions)](binary-tree/binary_search_tree_2.py) A binary tree implemented with helper functions.
-- [AVL Tree](binary-tree/avl_tree_1.py) A self balancing binary search tree when insert a data.
-- [AVL Tree (Helper Functions)](binary-tree/avl_tree_2.py) A avl tree implemented with helper functions.
+- [Binary Search Tree](binary-tree/binary_search_tree_1.py)
+- [Binary Search Tree (Helper Functions)](binary-tree/binary_search_tree_2.py) 
+- [AVL Tree](binary-tree/avl_tree_1.py) 
+- [AVL Tree (Helper Functions)](binary-tree/avl_tree_2.py) 
 
 ### Sorting
-- [Quick Sort](sorting/quick_sort.py) An efficient, general-purpose sorting algorithm.
-- [Merge Sort](sorting/merge.py) A sorting algorithm that is based on the Divide and Conquer paradigm.
-- [Tim Sort](sorting/tim_sort.py)  a divide-and-conquer algorithm.
+- [Quick Sort](sorting/quick_sort.py) 
+- [Merge Sort](sorting/merge.py)
+- [Tim Sort](sorting/tim_sort.py)
 - [Heap Sort](sorting/heap_sort.py)
 - [Bubble Sort](sorting/bubble_sort.py)
 - [Insertion Sort](sorting/insertion_sort.py)
