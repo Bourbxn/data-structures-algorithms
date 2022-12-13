@@ -9,11 +9,11 @@ This repository is a collection of data structures algorithms implemented in Pyt
 
 ### Stack
 - [Stack (List)](stack/stack_list.py). Last-in, First-out! and using built in list in python.
-- [Stack (Linked List)](stack/stack_linked_list.py). A stack using linked list class.
+- [Stack (Linked List)](stack/stack_linked_list.py). Last-in, First-out! and using linked list class.
 
 ### Queue
-- [Queue (List)](queue/queue_list.py)
-- [Queue (Linked List)](queue/queue_linked_list.py)
+- [Queue (List)](queue/queue_list.py). First-in, First-out! and using built in list in python.
+- [Queue (Linked List)](queue/queue_linked_list.py). First-in, First-out! and using linked list class.
 
 ### Linked List
 - [Singly Linked List (Basic)](linked-list/singly_linked_list_1.py)
