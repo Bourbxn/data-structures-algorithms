@@ -28,9 +28,9 @@ This repository is a collection of data structures algorithms implemented in Pyt
 - [AVL Tree (Helper Functions)](binary-tree/avl_tree_2.py) A avl tree implemented with helper functions.
 
 ### Sorting
-- [Quick Sort](sorting/quick_sort.py)
-- [Merge Sort](sorting/merge.py)
-- [Tim Sort](sorting/tim_sort.py)
+- [Quick Sort](sorting/quick_sort.py) An efficient, general-purpose sorting algorithm.
+- [Merge Sort](sorting/merge.py) A sorting algorithm that is based on the Divide and Conquer paradigm.
+- [Tim Sort](sorting/tim_sort.py)  a divide-and-conquer algorithm.
 - [Heap Sort](sorting/heap_sort.py)
 - [Bubble Sort](sorting/bubble_sort.py)
 - [Insertion Sort](sorting/insertion_sort.py)
